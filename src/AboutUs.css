@@ -1,0 +1,50 @@
+@font-face {
+    font-family: rogshire;
+    src: url(../assets/Rogshire\ Demo.ttf);
+  }
+
+@font-face {
+    font-family: glacial;
+    src: url(../assets/glacial-indifference.regular.otf);
+  }@font-face {
+    font-family: glacialb;
+    src: url(../assets/glacial-indifference.bold.otf);
+  }
+.about-us-container {
+    padding: 20px;
+    background-color: #cecece;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-title {
+    font-family: 'Rogshire', serif;
+    font-size: 50px;
+    margin-bottom: 70px;
+    color: #000;
+    margin-top: -10px;
+  }
+  
+  .about-us-text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    font-family: glacial;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    color: #333;
+
+    margin-bottom: 20px;
+  }
+  
+  .about-us-list li {
+    margin-bottom: 10px;
+  }
+  

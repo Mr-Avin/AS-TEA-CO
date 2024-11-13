@@ -1,0 +1,38 @@
+/* Styling for the "BUY NOW" button */
+@font-face {
+  font-family: glacial;
+  src: url(../assets/glacial-indifference.regular.otf);
+}@font-face {
+  font-family: glacialb;
+  src: url(../assets/glacial-indifference.bold.otf);
+}
+
+.buy-now-button {
+    background-color: #815333; 
+    color: white; 
+    font-family:glacial; 
+    font-size: 20px; 
+    padding: 20px 60px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    width: 250px; 
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: 0.4s;
+  
+
+  }
+  
+  .buy-now-button:hover {
+  
+    box-shadow: 7px 5px 56px -4px #815333; 
+  
+  }
+
+
+    

@@ -1,0 +1,64 @@
+.rosario-custom{
+    font-family: "Rosario", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Use a value from 300 to 700 */
+    font-style: normal;
+  }
+  @font-face {
+    font-family: rogshire;
+    src: url(../assets/Rogshire\ Demo.ttf);
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    background-color: #648270;
+    padding: 10px 20px;
+    position: relative; /* Changed from absolute */
+    margin: 20px auto;
+    border-radius: 50px;
+    max-width: 60%;
+    height: 40px; /* Slightly increased height */
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+ 
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    width: 95px;
+    height: auto;
+    margin-right: 0;
+    padding-left: 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 20px; /* Space for the links on the right */
+  }
+  
+  .nav-links a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:rogshire;
+    font-size: 30px;
+    letter-spacing: 10%;
+    /* font-stretch: ultra-condensed; */
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #cecece;
+    text-shadow: #000000;
+    cursor: pointer;
+  }
+  

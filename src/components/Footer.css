@@ -1,0 +1,83 @@
+@font-face {
+    font-family: rogshire;
+    src: url(../assets/Rogshire\ Demo.ttf);
+  }
+
+@font-face {
+    font-family: glacial;
+    src: url(../assets/glacial-indifference.regular.otf);
+  }@font-face {
+    font-family: glacialb;
+    src: url(../assets/glacial-indifference.bold.otf);
+  }
+
+  @font-face {
+    font-family: buttercup;
+    src: url(../assets/buttercup.ttf);
+  }
+.main{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer {
+    background-color: #3E0000; /* Dark maroon */
+    color: #fff;
+    padding: 40px 20px;
+    width: 100vw; /* Full viewport width */
+    position: relative; /* Position relative for full width */
+    left: 47.8%; /* Align it with the left side */
+    transform: translateX(-50%); /* Center the footer */
+    margin-top: 100px; /* Margin from the top */
+    text-align: center;
+    margin-bottom: -50px;
+  }
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  
+  .footer-logo h1 {
+    font-size: 80px;
+    font-family: rogshire; /* Mimic the style from the image */
+    margin: 0;
+    justify-content: left;
+  }
+  
+  .footer-logo p {
+    font-size: 30px;
+    font-family: buttercup; /* Script font to match "Bold Flavors" text */
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 18px;
+    font-family: glacial;
+  }
+  
+  .contact-item i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .footer-rights {
+    font-size: 14px;
+    margin-top: 20px;
+   
+  }
+  

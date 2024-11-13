@@ -1,0 +1,59 @@
+    @font-face {
+        font-family: rogshire;
+        src: url(../assets/Rogshire\ Demo.ttf);
+    }
+
+    @font-face {
+        font-family: glacial;
+        src: url(../assets/glacial-indifference.regular.otf);
+    }@font-face {
+        font-family: glacialb;
+        src: url(../assets/glacial-indifference.bold.otf);
+    }
+
+
+.testimonials-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  
+  .testimonials-title {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-family: roghsire;
+
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: #648270;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    text-align: left;
+    color: #fff;
+    box-shadow: 10px 10px 10px #6a6a6a;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 25px;
+    font-family: glacialb;
+    margin-bottom: 15px;
+    
+  }
+  
+  .testimonial-card p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: glacial;
+  }
+  

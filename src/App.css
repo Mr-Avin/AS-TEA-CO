@@ -1,0 +1,156 @@
+@font-face {
+  font-family: rogshire;
+  src: url(../assets/Rogshire\ Demo.ttf);
+}
+
+@font-face {
+  font-family: buttercup;
+  src: url(../assets/buttercup.ttf);
+}
+@font-face {
+  font-family: glacial;
+  src: url(../assets/glacial-indifference.regular.otf);
+}
+body {
+  background-color: #CECECE;
+  scroll-behavior: smooth;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.box {
+  background-color: #02401D; /* Background color */
+  padding: 20px; /* Internal padding */
+  width: 100%; /* Set width to 100% to stretch to edges */
+  height: 500px; /* Set height as desired */
+  position: relative; /* Keep position relative for normal flow */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space out image and text */
+  margin-top: 200px;
+  border-radius: 40px;
+  margin-left: -20px;
+}
+
+.box-title {
+  font-family: rogshire;
+  font-size: 100px; /* Title font size */
+  margin: 0; /* Reset margin */
+  color: #ffffff; /* White color for the title text */
+  text-align: left; /* Align title text to the left */
+}
+
+.box-description {
+  font-family: buttercup;
+  font-size: 50px; /* Description font size */
+  color: #ffffff; /* White color for the description text */
+  text-align: left; /* Align description text to the left */
+  margin-top: -20px; /* Optional: adjust spacing between title and description */
+}
+
+.box-image {
+  width: 500px; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and text */
+  filter: drop-shadow(10px 6px 10px #0c0b0b);
+}
+.header{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: center;
+
+}
+/* 
+.products{
+
+  font-family: rogshire;
+  font-size: 30px;
+  align-content: center;
+  color: #000000;
+  
+
+}
+
+.hotelimg{
+
+  display: flex;
+  justify-content: left;
+  filter: drop-shadow(13px 13px 13px  #3b3b3c);
+}
+
+.hotelmixture{
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.products-section {
+  background-color: #CECECE;
+  padding: 40px;
+  text-align: center;
+  justify-content: space-betweenn;
+}
+
+.section-title {
+  font-family: 'Rogshire', serif;
+  font-size: 50px;
+  margin-bottom: 70px;
+  color: #000;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding: 20px;
+  background-color: #828282;
+  border-radius: 10px;
+}
+
+.product-item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.product-image {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(20px 20px 4px #373737);
+  margin-right: 200px;
+}
+
+.product-info {
+  max-width: 500px;
+  text-align: left;
+}
+
+.product-title {
+  font-family: 'Rogshire';
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.product-subtitle {
+  font-family: 'Buttercup', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.product-description {
+  font-family: 'Buttercup', sans-serif;
+  font-size: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
