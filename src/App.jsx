@@ -28,7 +28,7 @@ function AppContent() {
       <div className="box">
         <img src={heroimage} alt="heroimage" className="box-image" />
         <div className='header'>
-          <h2 className="box-title">AS Tea.Co</h2>
+          <h2 className="box-title">Avinash Ass Tea.Co</h2>
           <p className="box-description">Bold Flavours, Energized Days.</p>
         </div>
       </div>
